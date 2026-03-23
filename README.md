@@ -66,22 +66,27 @@
 ## 🚀 Запуск проекта
 
 ### 1. Установка зависимостей
+```bash
 npm install -g cordova
-
+```
 ### 2. Создание проекта
+```bash
 cordova create tic-tac-toe
 cd tic-tac-toe
-
+```
 ### 3. Добавление платформы
+```bash
 cordova platform add android
-
+```
 ### 4. Запуск приложения
+```bash
 cordova run android
-
+```
 ---
 
 ## 📂 Структура проекта
 
+```bash
 tic-tac-toe/
 │
 ├── www/              # Основная папка приложения
@@ -92,7 +97,7 @@ tic-tac-toe/
 │
 ├── config.xml        # Конфигурация Cordova
 └── package.json      # Зависимости проекта
-
+```
 ---
 
 ## 💡 Особенности проекта
